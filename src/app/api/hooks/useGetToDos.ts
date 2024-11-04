@@ -13,7 +13,7 @@ type GetTodosRes = {
   status: string;
 };
 
-const useGetToDos = () => {
+const useGetToDos = (enabled: boolean) => {
   const { showSnackbar } = useSnackbar();
 
   const getToDos = async () => {
@@ -32,6 +32,7 @@ const useGetToDos = () => {
   return useQuery({
     queryKey: ['get-todos'],
     queryFn: getToDos,
+    enabled,
     refetchOnWindowFocus: false,
   });
 };

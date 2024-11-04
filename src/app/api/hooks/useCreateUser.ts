@@ -16,7 +16,6 @@ const useCreateUser = () => {
       const res: AxiosResponse<CreateUserRes> = await axios.post(
         `${ApiUrlV1}/auth`
       );
-      console.log('res.data:', res.data);
 
       const resData: CreateUserRes = res.data;
 

@@ -10,19 +10,30 @@ import Card from '@/app/ui/card';
 import useGetToDos from '@/app/api/hooks/useGetToDos';
 import CircularProgress from '@mui/material/CircularProgress';
 import Filter from '@/app/ui/filter';
+import useCreateUser from '@/app/api/hooks/useCreateUser';
 
 const { Icon } = ButtonVersion;
 
 export default function Home() {
+  const userInfo = JSON.parse(localStorage.getItem('userInfo') || '{}');
+  const userId = userInfo?.user?.id;
+
   const {
     data: todosData,
     isFetched: isTodosFetched,
     refetch: refetchTodos,
-  } = useGetToDos();
+  } = useGetToDos(!!userId);
+  const { mutateAsync: createUser } = useCreateUser();
 
   const [showForm, setShowForm] = useState(false);
   const bottomRef = useRef<HTMLDivElement | null>(null);
   const [filter, setFilter] = useState(() => ['pending', 'done', 'wontdo']);
+
+  useEffect(() => {
+    if (!userId) {
+      createUser().then();
+    }
+  }, []);
 
   useEffect(() => {
     if (!todosData?.length) return;
