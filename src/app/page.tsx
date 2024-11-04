@@ -15,7 +15,10 @@ import useCreateUser from '@/app/api/hooks/useCreateUser';
 const { Icon } = ButtonVersion;
 
 export default function Home() {
-  const userInfo = JSON.parse(localStorage.getItem('userInfo') || '{}');
+  const userInfo =
+    typeof window !== 'undefined'
+      ? JSON.parse(localStorage.getItem('userInfo') || '{}')
+      : {};
   const userId = userInfo?.user?.id;
 
   const {
