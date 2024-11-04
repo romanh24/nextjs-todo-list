@@ -1,7 +1,7 @@
 import DeletePic from '../../../../../public/Delete.svg';
 import EditPic from '../../../../../public/Edit.svg';
 
-export const actionButtons = [
+export const actionButtonsConfig = [
   {
     title: 'Edit To Do',
     onClick: 'handleEdit',

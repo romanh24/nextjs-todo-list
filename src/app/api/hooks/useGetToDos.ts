@@ -4,35 +4,36 @@ import { ApiUrlV1 } from '@/app/api/constants/apiVersion';
 import { AxiosResponse } from 'axios';
 
 import { useSnackbar } from '@/app/utils/providers/snackbar-provider';
+import { TaskStatus } from '@/app/types/statuses';
 
 type GetTodosRes = {
   id: number;
   title: string;
-  description: string;
+  description: TaskStatus;
   status: string;
 };
 
-const useGetTodos = () => {
+const useGetToDos = () => {
   const { showSnackbar } = useSnackbar();
 
-  const getTodos = async () => {
+  const getToDos = async () => {
     try {
-      const res: AxiosResponse<GetTodosRes> = await AxiosInstance.get(
-        // `${ApiUrlV1}todo`
-        'https://exaple.com'
+      const res: AxiosResponse<GetTodosRes[]> = await AxiosInstance.get(
+        `${ApiUrlV1}/todo`
       );
 
       return res.data;
     } catch (error) {
-      showSnackbar('This is a success message!', 'success');
+      showSnackbar('Error to get todos', 'error');
       return console.error('Error in get todos:', error);
     }
   };
 
   return useQuery({
     queryKey: ['get-todos'],
-    queryFn: getTodos,
+    queryFn: getToDos,
+    refetchOnWindowFocus: false,
   });
 };
 
-export default useGetTodos;
+export default useGetToDos;

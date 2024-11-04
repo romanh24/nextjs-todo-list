@@ -2,6 +2,7 @@ import { useMutation } from '@tanstack/react-query';
 import { ApiUrlV1 } from '@/app/api/constants/apiVersion';
 import { AxiosResponse } from 'axios';
 import AxiosInstance from '@/app/api/axiosInstance';
+import { useSnackbar } from '@/app/utils/providers/snackbar-provider';
 
 type CreateTaskPayload = {
   title: string;
@@ -15,16 +16,19 @@ type CreateTaskRes = {
   status: string;
 };
 
-const useCreateTask = () => {
+const useCreateToDo = () => {
+  const { showSnackbar } = useSnackbar();
+
   const createTask = async (payload: CreateTaskPayload) => {
     try {
       const res: AxiosResponse<CreateTaskRes> = await AxiosInstance.post(
-        `${ApiUrlV1}todo`,
+        `${ApiUrlV1}/todo`,
         payload
       );
-
+      showSnackbar('Task created!', 'success');
       return res.data;
     } catch (error) {
+      showSnackbar('Unable to create task. Please try again.', 'error');
       return console.error('Error in create task:', error);
     }
   };
@@ -34,4 +38,4 @@ const useCreateTask = () => {
   });
 };
 
-export default useCreateTask;
+export default useCreateToDo;

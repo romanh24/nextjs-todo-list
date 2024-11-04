@@ -18,7 +18,7 @@ export const statusButtonsConfig = [
   },
   {
     label: "Won't do",
-    style: `border border-wontdo ${baseStyle}`,
+    style: `border border-wont ${baseStyle}`,
     status: WontDo,
   },
 ];

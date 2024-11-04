@@ -15,6 +15,6 @@ export const toDoListMock = [
     id: 3,
     title: 'Title 3',
     description: 'Description 3',
-    status: 'wont',
+    status: 'wontdo',
   },
 ];

@@ -1,40 +1,27 @@
 import { twMerge } from 'tailwind-merge';
-
-export enum ButtonVersion {
-  Primary = 'primary',
-  Secondary = 'secondary',
-  Icon = 'icon',
-}
-
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  disabled: boolean;
-  title: string;
-  version?: ButtonVersion;
-  children: React.ReactNode;
-};
+import { baseStyle, versionStyles } from '@/app/ui/button/button.styles';
+import { ButtonProps } from '@/app/ui/button';
+import React from 'react';
 
 export default function Button({
-  disabled,
+  version = null,
   title,
   className,
-  version = ButtonVersion.Primary,
+  isDisabled = false,
   children,
+  onClick,
 }: ButtonProps) {
-  const baseStyle =
-    'flex justify-center items-center rounded-full text-base w-[7.5rem] h-9';
-
-  const versionStyles = {
-    primary: 'bg-purple text-white',
-    secondary: 'border border-purple text-purple',
-    icon: 'bg-purple w-[3.125rem] h-[3.125rem] rounded-full',
-  };
-
   return (
     <button
-      disabled={disabled}
+      disabled={isDisabled}
       title={title}
       type="button"
-      className={twMerge(baseStyle, versionStyles[version], className)}
+      className={
+        version
+          ? twMerge(baseStyle, versionStyles[version], className)
+          : className
+      }
+      onClick={onClick}
     >
       {children}
     </button>

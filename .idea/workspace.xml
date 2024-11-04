@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="452f4606-c0f3-4284-a1c8-398ed0bbb87b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/axiosInstance.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/axiosInstance.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/constants/apiVersion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/constants/apiVersion.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/hooks/useCreateToDo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/hooks/useCreateToDo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/hooks/useCreateUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/hooks/useCreateUser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/hooks/useDeleteToDo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/hooks/useDeleteToDo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/hooks/useGetToDos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/hooks/useGetToDos.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/hooks/useSetStatusToDo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/hooks/useSetStatusToDo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/hooks/useUpdateToDo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/hooks/useUpdateToDo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/mock/mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/mock/mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/fonts/fonts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/fonts/fonts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/types/statuses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/statuses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/button/button.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/button/button.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/button/button.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/button/button.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/button/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/button/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/card/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/card/card.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/card/card.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/card/config/actionButtonsConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/card/config/actionButtonsConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/card/config/statusButtonsConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/card/config/statusButtonsConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/card/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/card/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/filter/filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/filter/filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/filter/filter.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/filter/filter.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/filter/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/filter/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/form/form.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/form/form.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/form/form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/form/form.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/form/form.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/form/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/form/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/indicator/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/indicator/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/indicator/indicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/indicator/indicator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/indicator/indicator.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/indicator/indicator.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/providers/react-query-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/providers/react-query-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/providers/snackbar-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/providers/snackbar-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nqQ2Exce4WVbe7ntQP10eHlUoo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.16.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.16.15&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/roman/WebstormProjects/nextjs-todo-list&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/roman/.nvm/versions/node/v20.16.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;/Users/roman/.nvm/versions/node/v20.16.0/bin/npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/roman/WebstormProjects/nextjs-todo-list/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/roman/WebstormProjects/backend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/api/mock" />
+      <recent name="$PROJECT_DIR$/src/app/api" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/../backend/src/db" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="452f4606-c0f3-4284-a1c8-398ed0bbb87b" name="Changes" comment="" />
+      <created>1729697916509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729697916509</updated>
+      <workItem from="1729697917864" duration="665000" />
+      <workItem from="1729698645497" duration="23014000" />
+      <workItem from="1729773446046" duration="467000" />
+      <workItem from="1729773919197" duration="338000" />
+      <workItem from="1729774262041" duration="663000" />
+      <workItem from="1729774933413" duration="332000" />
+      <workItem from="1729775270972" duration="684000" />
+      <workItem from="1729775961444" duration="217000" />
+      <workItem from="1729776184436" duration="124000" />
+      <workItem from="1729776313965" duration="404000" />
+      <workItem from="1729776724392" duration="1014000" />
+      <workItem from="1729779425481" duration="596000" />
+      <workItem from="1729780038748" duration="1279000" />
+      <workItem from="1729782140563" duration="861000" />
+      <workItem from="1729783009151" duration="481000" />
+      <workItem from="1729783497932" duration="504000" />
+      <workItem from="1729784009028" duration="252000" />
+      <workItem from="1729784268051" duration="549000" />
+      <workItem from="1729784827384" duration="1449000" />
+      <workItem from="1729786284408" duration="511000" />
+      <workItem from="1729786801786" duration="69827000" />
+      <workItem from="1730039573807" duration="50283000" />
+      <workItem from="1730306418877" duration="2309000" />
+      <workItem from="1730367507838" duration="120000" />
+      <workItem from="1730367634739" duration="81761000" />
+      <workItem from="1730717804716" duration="27000" />
+      <workItem from="1730717899801" duration="530000" />
+      <workItem from="1730724740213" duration="17396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -3,19 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f5f5f5;
   --foreground: #171717;
+  --light-grey: rgba(110, 106, 124, 1);
+  --light-rose: rgba(252, 250, 255, 1);
+  --light-white: rgba(0, 0, 0, 0.04);
+  --white: rgba(255, 255, 255, 1);
+  --purple: rgba(95, 51, 225, 1);
+  --color-status-pending: rgba(252, 191, 73, 1);
+  --color-status-done: rgba(88, 129, 87, 1);
+  --color-status-wont: rgba(214, 40, 40, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-family: 'Red Hat Display', sans-serif;
 }
